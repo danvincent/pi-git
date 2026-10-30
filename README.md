@@ -4,7 +4,13 @@ Run Git from Pi's prompt, directly. No model request; commands and output never 
 
 ## Install
 
-From this checkout:
+Install directly from [GitHub](https://github.com/danvincent/pi-git); no manual clone or build needed:
+
+```sh
+pi install git:github.com/danvincent/pi-git
+```
+
+Or install from a local checkout:
 
 ```sh
 pi install /absolute/path/to/pi-git
